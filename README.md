@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://user-images.githubusercontent.com/51287876/222788805-b5ef2563-2e86-499d-aec7-908a6f23a449.png)
 
 ### Links
 
