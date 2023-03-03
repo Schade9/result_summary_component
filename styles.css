@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+p {
+    font-size: 18px;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    border-radius: 30px;
+}
+
+.shadow {
+    box-shadow: 5px 5px 5px 6px rgb(179, 179, 179);
+  }
+
+.result {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 350px;
+}
+
+.result > h1 {
+    color:hsl(241, 100%, 89%);
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.rate {
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    height: 200px;
+    width: 200px;
+    padding: 10px 20px 20px 20px;
+}
+
+.rate h1 {
+    color: #fff;
+    font-size: 80px;
+}
+
+.rate p {
+    color: hsl(241, 100%, 89%);
+}
+
+.comment {
+    padding-top: 15px;
+    color:white;
+    text-align: center;
+}
+
+.comment > h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.comment > p {
+    color: hsl(241, 100%, 89%);
+}
+
+.summary {
+    padding: 30px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.score {
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.score > span {
+    margin-left: 60px;
+}
+
+.score > img {
+    margin-right: 10px;
+}
+
+.reaction {
+    background-color: hsl(0, 66%, 94%);
+}
+
+.reaction p {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    background-color: hsl(39, 61%, 90%);
+}
+
+.memory p {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    background-color: hsl(165, 59%, 93%);
+}
+
+.verbal p {
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    background-color: hsl(234, 83%, 93%);
+}
+
+.visual p {
+    color: hsl(234, 85%, 45%);
+}
+
+button {
+    background-color: hsl(224, 30%, 27%);
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 376px) {
+    main {
+        width: 80%;
+    }
+    article {
+      display: flex;
+      flex-direction: column;
+    }
+    .result {
+        width: 305px;
+    }
+    .result > h1 {
+        font-size: 10px;
+    }
+}
